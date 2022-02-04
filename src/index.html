@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+ 
+    <link rel="stylesheet" href="style.css">
+    <script src="app.js"></script>
+  </head>
+  <body>
+    <div id="task1">
+      <form action="/a" onsubmit="myFunction()"></form>
+      <label for="length">Length of Rectangle</label>
+      <input type="text" id="length" name="length" /><br /><br />
+      <label for="width">Width of Rectangle</label>
+      <input type="text" id="width" name="width" /><br /><br />
+      <input type="submit" value="Calculate Area and Perimeter"  onclick="myFunction()"/>
+    </form>
+    <div id="area"></div>
+    <div id="peri"></div>
+    </div>
+    <div id="task2">
+      <form action="/a" onsubmit="myFunction2()"></form>
+
+      <input type="text" id="time" name="time-t" /><br /><br />
+      <input type="radio" name="time-option" value="htm" id="htm"> Hours to Mins<br>
+      <input type="radio" name="time-option" value="mts" id="mts"> Min to sec<br>
+      <div id="res"></div>
+      <input type="submit" value="Convert"  onclick="myFunction2()"/>
+    </form>
+    </div>
+
+  </body>
+</html>
